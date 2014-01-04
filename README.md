@@ -20,6 +20,7 @@ Running:
 will perform the above actions setting the sample size to 50.
 
 Running:
+
     Win = [4, -2, 0, 6, 1]';
     [x,y] = generateLSsample(Win, 100); 
     [Wout,r,n] = pla(x,y);
