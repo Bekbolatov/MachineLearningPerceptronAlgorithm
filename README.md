@@ -19,5 +19,14 @@ Running:
 
 will perform the above actions setting the sample size to 50.
 
+Running:
+
+    Win = [4, -2, 0, 6, 1]';
+    [x,y] = generateLSsample(Win, 100); 
+    [Wout,r,n] = pla(x,y);
+
+will generate 100 samples in an arbitrary dimension R<sup>n</sup>, implicitly given by vector Win, 
+and will perform PLA algorithm on this dataset.
+
 
 R-bee
