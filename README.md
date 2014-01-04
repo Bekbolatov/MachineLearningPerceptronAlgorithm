@@ -25,7 +25,7 @@ Running:
     [x,y] = generateLSsample(Win, 100); 
     [Wout,r,n] = pla(x,y);
 
-will generate 100 samples in an arbitrary dimension R^n, implicitly given by vector Win, 
+will generate 100 samples in an arbitrary dimension R<sup>n</sup>, implicitly given by vector Win, 
 and will perform PLA algorithm on this dataset.
 
 
