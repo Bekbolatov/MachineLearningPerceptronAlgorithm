@@ -17,7 +17,13 @@ Running:
 
     simpla(50);
 
-will perform the above actions setting the sample size to 50.
+will perform the above actions setting the sample size to 50, using PLA algorithm.
+
+Running:
+
+    simAdaline(50);
+
+will do same as above, except it will use Adaline algorithm (adaptive linear neuron).
 
 Running:
 
