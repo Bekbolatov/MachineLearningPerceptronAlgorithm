@@ -5,6 +5,6 @@ function [X, Y] = generateLSsample(W, nsize=20, gsize=50)
     % nsize sample size, default 20
     % gsize graph size +/-, default 50    
     X = [ones(nsize, 1), unifrnd(-gsize, gsize, nsize, size(W)(1) - 1)];
-    Y = 2 * (X * W > 0) - 1; 
+    Y = 2 * (X * W >= 0) - 1; 
 	X(:,1) = [];
 end
