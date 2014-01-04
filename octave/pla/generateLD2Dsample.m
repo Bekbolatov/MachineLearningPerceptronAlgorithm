@@ -4,8 +4,8 @@ function [X, Y] = generateLD2Dsample(a,b,nsize=20,gsize=50)
     % nsize sample size, default 20
     % gsize graph size +/-, default 50
     
-    orpos = '.b';
-    orneg = '.r';
+    orpos = 'ob';
+    orneg = 'xr';
     
     gxmin = -gsize;
     gxmax = gsize;
