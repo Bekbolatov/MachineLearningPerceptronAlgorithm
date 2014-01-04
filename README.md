@@ -6,7 +6,7 @@ Perceptron Learning Algorithm
 This octave code will:
  - pick a separation line L, 
  - generate a random set D from a 2-dimensional RxR,
- - classify D using L: above/below
+ - classify D using L: above/below - makes it linearly separable by construction
  - run PLA algorithm on the set D
  - plot estimated separation line
 
