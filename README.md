@@ -1,4 +1,4 @@
-Perceptron Learning Algorithm
+Perceptron Learning Algorithm and Adaline
 ======
 
 Perceptron learning algorithm and Adaline (adaptive linear neuron) algorithm for perceptron learning.
